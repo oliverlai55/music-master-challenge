@@ -1,0 +1,38 @@
+.related_artists_wrapper {
+  width: 49%;
+  position: relative;
+  height: 1000px;
+  float: right;
+}
+
+#related_artists_list {
+  max-height: 100%;
+  overflow: auto;
+}
+
+#related_artists_list img {
+  width: 100px;
+  display: block;
+}
+
+.top_tracks_wrapper {
+  display: inline-block;
+  width: 33%;
+}
+
+.artist_wrapper {
+  width: 50%;
+  float: left;
+}
+
+#artist_image {
+  width: 300px;
+}
+
+.artist_btn {
+  padding: 6px;
+  font-size: 15px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
